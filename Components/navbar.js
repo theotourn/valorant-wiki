@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div style={{ marginBottom: "1rem" }}>
       <nav class="navbar container-fluid navbar-dark bg-dark">
-        <div className="container" style={{ height: "3rem" }}>
+        <div className="container">
           <Link href="/">
           <button class="navbar-brand btn mb-0 h1" style={{fontWeight:"bold"}}>Valorant Wiki</button>
           </Link>
