@@ -9,7 +9,7 @@ export default function Home(props) {
     <>
       <Head>
         <title>Valorant Wiki</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://img.icons8.com/color/512/valorant.png" />
       </Head>
       <main className={styles.bg}>
         <Navbar />
