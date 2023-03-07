@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "@/styles/Home.module.css";
-import Navbar from "@/Components/navbar";
 import Link from "next/link";
 
 export default function Home(props) {
@@ -12,7 +10,6 @@ export default function Home(props) {
         <link rel="icon" href="https://img.icons8.com/color/512/valorant.png" />
       </Head>
       <main className={styles.bg}>
-        <Navbar />
         <div className="container">
           <div className="d-flex flex-wrap">
             <div

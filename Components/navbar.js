@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div style={{ marginBottom: "1rem" }}>
+    <div>
       <nav class="navbar container-fluid navbar-dark bg-dark">
         <div className="container">
           <Link href="/">

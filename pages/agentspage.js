@@ -1,5 +1,4 @@
 import styles from "@/styles/Home.module.css";
-import Navbar from "@/Components/navbar";
 
 export default function AgentsPage(props) {
   const { agents } = props;
@@ -7,7 +6,6 @@ export default function AgentsPage(props) {
   return (
     <>
       <main className={styles.bg}>
-      <Navbar />
         <div className="container">
           <div className="d-flex flex-wrap">
             {agents.map((agent) => (
